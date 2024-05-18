@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pro2.css" />
+</head>
+
+<body>
+    <div class="con1">
+        <div class="con11">
+            <h1 class="head2">Expense Tracker</h1>
+            <!-- <h1 class="head1">Enter details</h1> -->
+            <form action=""></form>
+            <label for="amount">Amount</label>
+            <br>
+            <input type="text" id="amount" placeholder="1000">
+            <br>
+            <br>
+            <label for="category">Category</label>
+            <br>
+            <input type="text" id="category" placeholder="dresses">
+            <br>
+            <br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" id="date" placeholder="yy-mm-dd">
+            <br>
+            <br>
+            <button onclick="expense()" class="btn1">Submit</button>
+            </form>
+        </div>
+        <div class="con2">
+            
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>500</td>
+                        <td>dress</td>
+                        <td>2004-6-25</td>
+                    </tr>
+                    <tr>
+                        <td>600</td>
+                        <td>shirts</td>
+                        <td>2004-7-25</td>
+                    </tr> -->
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="pro2.js"></script>
+</body>
+
+</html>
